@@ -8,8 +8,8 @@ export default function Home() {
   <Head>
     <title>eshaan</title>
   </Head>
-  <div class="topnav">
-  <a class="active" href="#home">Home</a>
+  <div className="topnav">
+  <a className="active" href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
