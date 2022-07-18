@@ -17,7 +17,7 @@ export default function Home() {
   <div className={styles.center}>
     <h2 className={styles.fonts}>eshaan tibrewala</h2>
     </div>
-  <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank">linkedin</a>
+  <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank" rel="noreferrer">linkedin</a>
     <div>email</div>
   </div>
   )
