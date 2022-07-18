@@ -5,9 +5,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
 <div>
-  <head>
+  <Head>
     <title>eshaan</title>
-  </head>
+  </Head>
   <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
