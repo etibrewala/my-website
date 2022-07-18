@@ -4,21 +4,22 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-<div className={styles.bakers}>
-  <img/>
+<div>
+  <head>
+    <title>eshaan</title>
+  </head>
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
   <div className={styles.center}>
-    <h2>Eshaan Tibrewala</h2>
+    <h2 className={styles.fonts}>eshaan tibrewala</h2>
     </div>
-   
-   
-   {/*<div>
-      <a href='https://github.com/etibrewala' target="_blank"><div>github</div></a>
-      <div>email</div>
-      <a href="https://www.linkedin.com/in/eshaantibrewala" target="_blank">
-        <div>linkedin</div>
-      </a>
-      <div>resumes</div>
-  </div>*/}
+    <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank"><div>linkedin</div></a>
+    <a href='https://github.com/etibrewala' target="_blank"><div>github</div></a>
+    <div>email</div>
   </div>
   )
 }
