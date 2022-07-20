@@ -8,3 +8,10 @@
 .fonts{
   font-family: 'Times New Roman', Times, serif;
 }
+.main{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
