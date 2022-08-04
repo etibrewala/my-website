@@ -1,0 +1,65 @@
+.navbar {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    width: calc(100% - 10px);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.links > div {
+    margin-right: 10px;
+}
+
+.link > a {
+    color: var(--fg);
+    font-weight: normal;
+}
+
+.link {
+    overflow: hidden;
+}
+
+.link:hover > .bar {
+    transform: translate(0);
+}
+
+.mainlink > a {
+    color: var(--fg);
+    text-decoration: underline;
+}
+
+.bar{
+    min-width: 100%;
+    min-height: 2px;
+    background: var(--fg);
+    transform: translate(105%);
+    transition: 200ms ease;
+    margin-top: -2px;
+}
+
+.toggle {
+    cursor: pointer;
+    font-size: 28px;
+
+    transition: 200ms ease;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 30px;
+}
+
+.toggle:hover {
+    transform: scale(1.1);
+}
+
