@@ -19,7 +19,7 @@ export default function Home() {
     </div>
     <div>
       <h1>Eshaan Tibrewala</h1>
-      <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank">linkedin</a>
+      <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank" rel="noreferrer">linkedin</a>
       <a href='https://github.com/etibrewala' target="_blank" rel="noreferrer">github</a>
       <a href="mailto:eshaantibrewala@gmail.com">email</a>
     </div>
