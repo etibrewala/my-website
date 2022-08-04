@@ -12,7 +12,7 @@ export default function Project(){
             <NavBar/>
             </div>
             <h1>resume page incoming</h1>
-            <a href="/static/Resume.pdf" target="_blank">resume</a>
+            <a href="/static/Resume.pdf" target="_blank" rel="noreferrer">resume</a>
         </main>
     )
 }
