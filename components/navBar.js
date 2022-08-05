@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/NavBar.module.css'
 
@@ -7,9 +7,9 @@ export default function NavBar() {
     return(
         <main>
         <Head>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Raleway&display=swap');
-            </style>
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
         </Head>
         <div className={styles.navbar}>
         <div className={styles.mainlink}>
