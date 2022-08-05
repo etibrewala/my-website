@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/NavBar.module.css'
 
 
-const NavBar = () => {
+export default function NavBar() {
     return(
         <main>
         <Head>
@@ -33,5 +33,3 @@ const NavBar = () => {
         </main>
     )
 }
-
-export default NavBar;
