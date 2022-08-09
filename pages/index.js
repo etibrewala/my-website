@@ -4,7 +4,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import circles from '../styles/bubbles.module.css'
 import NavBar from '../components/navBar'
-
+import {FaInstagram,
+        FaLinkedin,
+        FaGithub
+        } from 'react-icons/fa'
+import {MdEmail} from "react-icons/md"
 
 
 export default function Home() {
@@ -29,9 +33,18 @@ export default function Home() {
       </div>
       <div className={styles.bubbles}></div>
       <div className={styles.bubbles}>
-      <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank" rel="noreferrer"></a>
-      <a href='https://github.com/etibrewala' target="_blank" rel="noreferrer"></a>
-      <a href="mailto:eshaantibrewala@gmail.com"></a>
+      <a href='https://www.linkedin.com/in/eshaantibrewala/' target="_blank" rel="noreferrer">
+        <div><FaLinkedin/></div>
+      </a>
+      <a href='https://github.com/etibrewala' target="_blank" rel="noreferrer">
+        <div><FaGithub/></div>
+      </a>
+      <a href="https://www.instagram.com/dronestl/" target="_blank" rel="noreferrer">
+        <div><FaInstagram/></div>
+      </a>
+      <a href="mailto:eshaantibrewala@gmail.com">
+        <div><MdEmail/></div>
+      </a>
       </div>
     </div>
   </main>
