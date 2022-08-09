@@ -1,61 +1,25 @@
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  font-family: 'Times New Roman', Times, serif;
+
+.name{
+  font-size: 80px;
+  font-family: "EB Garmond", serif;
 }
 
-.fonts{
-  font-family: 'Times New Roman', Times, serif;
-  color: blueviolet;
-}
 .main{
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
-  color: aqua;
-}
-.bubbles > div {
-  height: 32px;
-  width: 32px;
-
-  border-radius: 16px;
-  margin-right: 15px;
-
-  display: flex;
-  justify-content: center;
   align-items: center;
-
-  transition: 250ms ease;
-
-  font-size: 16px;
+  text-align: center;
+  padding-top: 12%;
 }
 
-.bubbles > div:hover {
-  background: transparent;
-  font-weight: bold;
-}
 
-.bubbles > div:hover > a {
-transform: scale(1.6)
-}
-
-.bubbles > div:hover > a {
-  color: inherit;
-}
-
-.gh {
-  color: var(--red);
-}
-
-.bubbleButtons{
+.bubbles > a{
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
-  background: black;
-  position: fixed;
-  height: 100px;
-  width: 100px;
-}
+  background-color: grey;
+  display: inline-block;
+  margin-right: 40px;
 
+}
